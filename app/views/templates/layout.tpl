@@ -153,7 +153,7 @@
 
                     <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto nav-links">
                         <li class="nav-item">
-                            <a href="/DaftarAnggota class="nav-link text-white">
+                            <a href="/Register" class="nav-link text-white">
                                 <i class="fa fa-user-plus faa-vertical animated"></i> 
                                     Daftar
                             </a>
