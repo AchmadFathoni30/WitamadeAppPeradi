@@ -111,44 +111,59 @@
                     <!-- Left navbar links -->
                     <ul class="navbar-nav nav-links">
                         <li class="nav-item">
-                            <a href="/" class="nav-link text-white"><i
-                                    class="fa fa-home faa-tada animated-hover"></i> Beranda</a>
+                            <a href="/" class="nav-link text-white">
+                                <i class="fa fa-home faa-tada animated-hover"></i> 
+                                    Beranda
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#cari" class="nav-link text-white carianggota"><i
-                                    class="fa fa-search faa-tada animated-hover"></i> Cari Anggota</a>
+                            <a href="#cari" class="nav-link text-white carianggota">
+                                <i class="fa fa-search faa-tada animated-hover"></i> 
+                                    Cari Anggota
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/Pengurus" class="nav-link text-white"><i
-                                    class="fa fa-sitemap faa-tada animated-hover"></i> Pengurus</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="/Statistik" class="nav-link text-white"><i
-                                    class="fa fa-bar-chart faa-tada animated-hover"></i> Statistik</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <!--<a href="unduh.php?nama_file=apk/kta_digi_pgri.apk" class="nav-link text-white"><i class="fa fa-android faa-tada animated-hover"></i> Unduh</a>-->
-                            <a href="#" target="_blank" class="nav-link text-white"><i
-                                    class="fa fa-android faa-tada animated-hover"></i> Unduh</a>
+                            <a href="/Pengurus" class="nav-link text-white">
+                                <i class="fa fa-sitemap faa-tada animated-hover"></i> 
+                                    Pengurus
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="/Tentang" class="nav-link tentang text-white"><i
-                                    class="fa fa-flag faa-tada animated-hover"></i> Tentang</a>
+                            <a href="/Statistik" class="nav-link text-white">
+                                <i class="fa fa-bar-chart faa-tada animated-hover"></i> 
+                                    Statistik
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" target="_blank" class="nav-link text-white">
+                                <i class="fa fa-android faa-tada animated-hover"></i> 
+                                    Unduh
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="/Tentang" class="nav-link tentang text-white">
+                                <i class="fa fa-flag faa-tada animated-hover"></i> 
+                                    Tentang
+                            </a>
                         </li>
                     </ul>
 
                     <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto nav-links">
                         <li class="nav-item">
-                            <a href="daftar_anggota.php" class="nav-link text-white"><i
-                                    class="fa fa-user-plus faa-vertical animated"></i> Daftar</a>
+                            <a href="/DaftarAnggota class="nav-link text-white">
+                                <i class="fa fa-user-plus faa-vertical animated"></i> 
+                                    Daftar
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="login.php" class="nav-link text-white"><i
-                                    class="fa fa-sign-in faa-horizontal animated"></i> Masuk</a>
+                            <a href="/Login" class="nav-link text-white">
+                                <i class="fa fa-sign-in faa-horizontal animated"></i> 
+                                    Masuk
+                            </a>
                         </li>
 
                     </ul>
@@ -187,11 +202,11 @@
 
                     <div class="col-4">
                         <center>
-                            <button type="submit" class="btn text-white" onclick="window.location.href='masuk'"><i
-                                    class="fa 
-            fa-sign-in faa-pulse faa-passing animated"></i>
-                                <span class="d-block d-lg-none d-xl-none d-xs-block"
-                                    style="font-size: 10px;font-family: 'Orbitron', sans-serif;">Masuk</span>
+                            <button type="submit" class="btn text-white" onclick="window.location.href='masuk'">
+                                <i class="fa fa-sign-in faa-pulse faa-passing animated"></i>
+                                    <span class="d-block d-lg-none d-xl-none d-xs-block" style="font-size: 10px;font-family: 'Orbitron', sans-serif;">
+                                        Masuk
+                                    </span>
                             </button>
                         </center>
                     </div>

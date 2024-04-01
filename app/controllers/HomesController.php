@@ -18,4 +18,9 @@ class HomesController extends Controller
     {
         $this->view('statistik.tpl');
     }
+
+    public function indexTentang()
+    {
+        $this->view('tentang.tpl');
+    }
 }

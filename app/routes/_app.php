@@ -3,4 +3,5 @@
 
 app()->get('/', 'HomesController@indexHome');
 app()->get('/Pengurus','HomesController@indexPengurus');
-app()->get('/Statistic','HomesController@indexStatistik');
+app()->get('/Statistik','HomesController@indexStatistik');
+app()->get('/Tentang','HomesController@indexTentang');

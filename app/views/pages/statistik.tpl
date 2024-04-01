@@ -47,14 +47,30 @@
               <div class="card-header d-flex p-0">
 
                 <ul class="nav nav-pills ml-auto p-2">
-                  <li class="nav-item"><a class="nav-link active" href="#tab_1" data-toggle="tab"><i
-                        class="fa fa-user"></i> Jenis Kelamin & Umur</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab"><i
-                        class="fa fa-graduation-cap"></i> Kualifikasi Pendidikan</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#tab_4" data-toggle="tab"><i
-                        class="fa fa-map-marker"></i> Provinsi</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#tab_5" data-toggle="tab"><i
-                        class="fa fa-file-text-o"></i> Sertifikat Pendidikan</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#tab_1" data-toggle="tab">
+                        <i class="fa fa-user"></i> 
+                        Jenis Kelamin & Umur
+                    </a>
+                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#tab_2" data-toggle="tab">
+                        <i class="fa fa-graduation-cap"></i> 
+                            Kualifikasi Pendidikan
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#tab_4" data-toggle="tab">
+                        <i class="fa fa-map-marker"></i> 
+                            Provinsi
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#tab_5" data-toggle="tab">
+                        <i class="fa fa-file-text-o"></i> 
+                            Sertifikat Pendidikan
+                    </a>
+                  </li>
                 </ul>
               </div><!-- /.card-header -->
               <div class="card-body">
@@ -471,7 +487,7 @@
                 PERADI </div>
             </div>
             <center>
-              <img src="assets/dist/img/user/profil.jpg" class="img-thumbnail" alt="image-responsive">
+              <img src="<!--{$AssetsPath}-->template/dist/img/user/profil.jpg" class="img-thumbnail" alt="image-responsive">
               <br />
               <b>Prof. Dr. Ketu Umum Peradi, M.Kom</b>
               <br>
@@ -502,46 +518,6 @@
 
         </main>
         <br />
-        <script>
-          $(function () {
-            $(document).on('click', '.carianggota', function (e) {
-              e.preventDefault();
-              $("#cariModal").modal('show');
-              $.post('cari_anggota.php',
-                { id: $(this).attr('data-id') },
-                function (html) {
-                  $(".modal-body").html(html);
-                });
-            });
-          });
-        </script>
-        <div class="modal fade" id="cariModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
-          aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header bg-light">
-                <h5 class="modal-title text-uppercase small" id="exampleModalLabel1"><img
-                    src="assets/dist/img/logo1.jpg" width="30"> Aplikasi PERADI </h5>
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">x</span>
-                </button>
-              </div>
-              <div class="modal-body">
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-outline-danger btn-xs" data-dismiss="modal" style="width:120px;"><i
-                    class="fa fa-times-circle faa-tada animated-hover"></i> Tutup</button>
-                <!-- <button type="submit" class="btn btn-outline-primary btn-xs" style="width:120px;"><i class="fa fa-check-circle faa-tada animated-hover"></i> Cek Data</button> -->
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <a href="#whatsapp" class="float whatsapp">
-          <i class="fa fa-whatsapp my-float"></i>
-          <div style="margin-top: -100px;" id="myButton"></div>
-        </a>
       </div>
       <footer class="main-footer bg-perubahan">
 
@@ -552,8 +528,11 @@
               <small>
                 <b>powered by
                   <a style="font-size: 9px;font-family: 'Orbitron', sans-serif;" href="#developer"
-                    onclick="window.location.href='https://www.youtube.com/channel/UCh3zMcSY8-XpetX_Zq29e_w?view_as=subscriber?sub_confirmation=1'">
-                    <span class="badge bg-navy"><i class="fa fa-code"></i> WITAMADE</span>
+                    onclick="window.location.href='#'">
+                    <span class="badge bg-navy">
+                        <i class="fa fa-code"></i> 
+                            WITAMADE
+                    </span>
                   </a>
                 </b>
               </small>
@@ -568,27 +547,23 @@
 
             <div class="col-4">
               <center>
-                <button type="submit" class="btn text-white" onclick="window.location.href='masuk'"><i class="fa 
-            fa-sign-in faa-pulse faa-passing animated"></i>
-                  <span class="d-block d-lg-none d-xl-none d-xs-block"
-                    style="font-size: 10px;font-family: 'Orbitron', sans-serif;">Masuk</span>
+                <button type="submit" class="btn text-white" onclick="window.location.href='masuk'">
+                    <i class="fa fa-sign-in faa-pulse faa-passing animated"></i>
+                        <span class="d-block d-lg-none d-xl-none d-xs-block" style="font-size: 10px;font-family: 'Orbitron', sans-serif;">
+                            Masuk
+                        </span>
                 </button>
               </center>
             </div>
 
             <div class="col-4">
               <center>
-                <button type="submit" class="btn text-white"
-                  onclick="window.location.href='https://play.google.com/store/apps/details?id=id.mcproject.ktadigipgri'"><i
-                    class="fa 
-            fa-android faa-flash animated"></i>
-                  <span class="d-block d-lg-none d-xl-none d-xs-block"
-                    style="font-size: 10px;font-family: 'Orbitron', sans-serif;">Unduh</span>
+                <button type="submit" class="btn text-white" onclick="window.location.href='#'">
+                    <i class="fa fa-android faa-flash animated"></i>
+                    <span class="d-block d-lg-none d-xl-none d-xs-block" style="font-size: 10px;font-family: 'Orbitron', sans-serif;">
+                        Unduh
+                    </span>
                 </button>
-                <!--<button type="submit" class="btn text-white"  onclick="window.location.href='unduh.php?nama_file=apk/kta_digi_pgri.apk'"><i class="fa -->
-                <!--  fa-android faa-flash animated"></i> -->
-                <!--  <span class="d-block d-lg-none d-xl-none d-xs-block" style="font-size: 10px;font-family: 'Orbitron', sans-serif;">Unduh</span>-->
-                <!--</button>-->
               </center>
             </div>
 
