@@ -23,4 +23,9 @@ class HomesController extends Controller
     {
         $this->view('register.tpl');
     }
+
+    public function indexLogin()
+    {
+        $this->view('login.tpl');
+    }
 }
